@@ -1,3 +1,5 @@
+// CSS Style format objects
+
 const formats =[
   {
     img: "img/1.jpg",
