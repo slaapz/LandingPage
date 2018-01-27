@@ -18,8 +18,8 @@ This is the javascript that controls the changes made the DOM and CSS.
 This is the javascript that holds the format objects for updating the css each time the browser is loaded or the page is refreshed. The format objects are made up of images and heading colors.
 
 ## style.css
-Stylesheet for the html doc.
+This is the stylesheet for the html doc.
 
 ## `img` folder
-Folder the holds the images for the background.
+This is the folder that holds the images for the background.
 
