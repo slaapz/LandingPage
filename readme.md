@@ -1,2 +1,2 @@
-#HTML Landing Page.
+# HTML Landing Page.
 This repo has a mini project I did to create a landing page the displays everytime start my browser. It displays a background image (all downloaded from prexels.com), the current time which constantly updates, a greeting and a message.
