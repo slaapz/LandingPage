@@ -46,7 +46,7 @@ function updateGreeting(hours){
 
 function changeCSS(cssObj){
   console.log(cssObj);
-  elHeader.style.backgroundImage = `url('${cssObj.img}'`;
+  elHeader.style.backgroundImage = `url('${cssObj.img}')`;
   elTime.style.color=`${cssObj.h1Color}`;
   elGreeting.style.color=`${cssObj.h3Color}`;
   elMessage.style.color=`${cssObj.h4Color}`;
