@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 header {
-  background-image: url('img/1.jpg');
+  background-image: url('img/7.jpg');
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -15,21 +15,21 @@ header {
 }
 
 #time{
-  color: white;
+  color: darkslateblue;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 8em;
   margin: 0;
 }
 
 #greeting{
-  color: greenyellow;
+  color: magenta;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.75em;
   margin: 0;
 }
 
 #msg {
-  color: aqua;
+  color: cyan;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.5em;
 }
