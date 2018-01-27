@@ -16,7 +16,8 @@ changeCSS(cssFormat);
 updateGreeting(h);
 
 const myTime = setInterval(myClock,1000),
-      myGreeting = setInterval(myGreet,3600000);
+      myGreeting = setInterval(myGreet,3600000),
+      myFormatting = setInterval(myFormat,3600000);
 
 // Dynamic clock display
 function myClock(){
@@ -28,6 +29,13 @@ function myClock(){
 function myGreet(){
   const h = new Date().getHours();
   updateGreeting(h);
+}
+
+// Upate css format
+function myFormat(){
+  const oIndex = Math.floor((Math.random() * 7));
+  const cFormat = formats[oIndex];
+  changeCSS(cFormat);
 }
 
 // Checks the hour every hour and Changes innerHtml of greeting and msg elements.
@@ -45,7 +53,7 @@ function updateGreeting(hours){
 }
 
 function changeCSS(cssObj){
-  console.log(cssObj);
+  // console.log(cssObj);
   elHeader.style.backgroundImage = `url('${cssObj.img}')`;
   elTime.style.color=`${cssObj.h1Color}`;
   elGreeting.style.color=`${cssObj.h3Color}`;
