@@ -1,6 +1,6 @@
 # HTML Landing Page.
 
-This repo has a mini project I did to create a landing page the displays every time I start my browser. It displays a background image (all downloaded from pexels.com), the current time which constantly updates, a greeting and a message. The backgound image and the heading colors are randomized between 7 different packages.
+This repo has a mini project I did to create a landing page that displays every time I start my browser. It displays a background image (all downloaded from pexels.com), the current time which constantly updates, a greeting and a message. The background image and the heading colors are randomized between 7 different packages.
 
 #This repo contains the following folders and files
 
